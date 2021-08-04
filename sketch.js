@@ -46,7 +46,7 @@ function setup() {
 function draw() {
  background(0);
  
- text("Score: " + score,50,20);
+ 
  console.log(score);
  
   // moving ground
@@ -115,6 +115,7 @@ function draw() {
   
   
   drawSprites();
+  text("Score: " + score,50,20);
 }
 
 
